@@ -1,0 +1,175 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.header h1 {
+  border-bottom: black solid 2px;
+  font-size: 80px;
+}
+.header img {
+  margin: 48px 0;
+}
+
+.profile {
+  line-height: 30px;
+  margin-bottom: 72px;
+}
+.profile p {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #000;
+  margin-bottom: 8px;
+}
+.subtitle h2 {
+  font-size: 32px;
+}
+.subtitle p {
+  font-size: 24px;
+  margin-left: 16px;
+  color: darkred;
+}
+
+.education {
+  margin-bottom: 72px;
+}
+.education p {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.skills {
+  padding: 24px;
+  background-color: #415165;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 30px;
+  margin-bottom: 72px;
+}
+.skills .subtitle {
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.skills p {
+  color: white;
+}
+.skills .skill-items {
+  margin-top: 20px;
+  padding-left: 20px;
+  border-left: 1px solid #fff;
+}
+
+.experience .work {
+  margin-bottom: 32px;
+}
+.experience .work h3 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+}
+.experience .work img {
+  margin: 0 8px;
+}
+.experience .work p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.footer {
+  padding: 24px;
+  background-color: #415165;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 30px;
+  margin-bottom: 72px;
+}
+.footer .subtitle {
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.footer p {
+  color: white;
+  font-size: 24px;
+  line-height: 36px;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+  margin: 12px;
+}
+.footer .other-link {
+  margin-top: 20px;
+}

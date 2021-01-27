@@ -1,0 +1,121 @@
+@import 'cssreset';
+
+.container{
+    width: 1024px;
+    margin: 0 auto;
+}
+.header{
+    h1{
+        border-bottom: black solid 2px;
+        font-size: 80px;
+    }
+    img{
+        margin: 48px 0;
+    }
+}
+.profile{
+    line-height: 30px;
+    margin-bottom: 72px;
+    p{
+        font-size: 24px;
+        line-height: 36px;
+    }
+}
+.subtitle{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 8px;
+    h2{
+        font-size: 32px;
+    }
+    p{
+        font-size: 24px;
+        margin-left: 16px;
+        color: darkred;
+    }
+}
+.education{
+    margin-bottom: 72px;
+    p{
+        font-size: 24px;
+        line-height: 36px;
+    }
+}
+.skills{
+    padding: 24px;
+    background-color: #415165;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 30px;
+    margin-bottom: 72px;
+    .subtitle{
+        text-align: center;
+        border-bottom: 1px solid #fff;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+    p{
+        color: white;
+    }
+    .skill-items{
+        margin-top: 20px;
+        padding-left: 20px;
+        border-left: 1px solid #fff;
+    }
+}
+.experience{
+    
+    .work{
+        margin-bottom: 32px;
+        h3{
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 36px;
+        }
+        img{
+            margin: 0 8px;
+        }
+        p{
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+}
+.footer{
+    padding: 24px;
+    background-color: #415165;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 30px;
+    margin-bottom: 72px;
+    .subtitle{
+        text-align: center;
+        border-bottom: 1px solid #fff;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+    p{
+        color: white;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        margin: 12px;
+    }
+    .other-link{
+        margin-top: 20px;
+    }
+}
